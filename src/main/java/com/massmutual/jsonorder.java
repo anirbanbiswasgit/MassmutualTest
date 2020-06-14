@@ -56,7 +56,7 @@ public class jsonorder {
         Arrays.sort(charArr1);
         Arrays.sort(charArr2);
 
-        return(Arrays.equals(charArr1, charArr2));
+        return(Arrays.eqauals(charArr1, charArr2));
     }
 
     public static void isPalindromString()
